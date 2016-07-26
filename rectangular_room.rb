@@ -6,16 +6,11 @@ def feet(a, b)
 
 end
 
-
 def metres(length, width)
 
   return feet(length, width) * CONVERT
 
 end
-
-
-
-
 
 puts "What is the length of the room in feet?"
 length = gets.chomp.to_i
