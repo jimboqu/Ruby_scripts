@@ -1,15 +1,13 @@
+#convert currency. 
+
 def find_currency(currency)
   if currency == "Dollar"
   	return 1.32
   elsif currency == "EURO"
   	return 1.23
   else
-  	not_currency
+  	abort("not a currency") 
   end
-end
-
-def not_currency
-  abort("not a currency") 
 end
 
 def total(amount, currency) 
