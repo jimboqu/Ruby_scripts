@@ -10,7 +10,7 @@ def calc (order)
 end
 
 def tax(state, order)
-  if state == "MW" 
+  if state == "WI" || "WISCONSIN"
   	pay = calc(order)
   	return pay.round(2)
   else
