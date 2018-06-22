@@ -7,6 +7,7 @@ drinks = gets.chomp.to_i
 puts "When was your last drink in hours?"
 last = gets.chomp.to_i
 puts "How much alcohol is in a drink?"
+h = gets.chomp.to_i
 
 def mf(sex)
   if sex = "M"
@@ -16,4 +17,5 @@ def mf(sex)
   end
 end
 
-bac = (weight * 5.14 / )
+bac = (h * 5.14 / weight * mf(sex) - 0.015 * last)
+puts bac < 0.08 ? "#{bac} You are ok to drive" : "#{bac} You cannot drive"
