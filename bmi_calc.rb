@@ -1,13 +1,14 @@
 puts "How much do you weigh in pounds?"
-weight = gets.chomp.to_i
+weight = gets.chomp.to_f
 puts "How tall are you in inches?"
-height = gets.chomp.to_i
+height = gets.chomp.to_f
 
-def result(height, weight) 
-  return weight / (height x height)
+def result(weight, height) 
+  square = height * height
+  return (weight / square) * 703
 end
 
-def bmi(result(height, weight) )
+def bmi(result)
   if result < 18.5
   	return "Your BMI is #{result}. You are underweight"
   elsif result > 25
@@ -17,4 +18,5 @@ def bmi(result(height, weight) )
   end
 end
 
-puts bmi(result)
+number = result(weight, height)
+puts bmi(number)
