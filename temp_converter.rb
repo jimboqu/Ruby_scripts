@@ -5,9 +5,9 @@ temp = gets.chomp.to_i
 
 def fc(option)
   if option == "C"
-  	return "celsius"
-  else
   	return "fahrenheit"
+  else 
+  	return "celsius"
   end
 end
 
