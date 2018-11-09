@@ -22,6 +22,18 @@ A program that converts currency exchange rates. Input money, exchange rate, and
 ### Computing interest
 Asks for principle amount, the interest rate, and the time it has been saved. Contraints included ensuring the output is printed as money and rounded up to the next penny. 
 
-### Determining compound interest. 
+## Determining compound interest. 
+Constraints included asking for an exchange rate percentage and rounding up to the penny. 
+
+### Chapter 4 - Making decisions
+
+## Tax Calculator. 
+Constraints included just using one if statement (no elses), and money rounded up. 
+
+
+
+
+
+
 
 
